@@ -1,0 +1,9 @@
+# to make files through terminal 
+touch signUpSchema.ts verifySchema.ts signInSchema.ts acceptMessageSchema.ts messageSchema.ts 
+
+# start with npm run dev 
+
+# steps to make project
+1 create model-> User.ts with interface, schema of user 
+2 create schemas validation from zod
+3 
