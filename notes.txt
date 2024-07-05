@@ -6,4 +6,6 @@ touch signUpSchema.ts verifySchema.ts signInSchema.ts acceptMessageSchema.ts mes
 # steps to make project
 1 create model-> User.ts with interface, schema of user 
 2 create schemas validation from zod
-3 
+3 do database connection
+4 add email template and make a helper folder in which you are sending verification code on email
+5 make sign-up route that is taking email and password and checking all things and saving the data if not exits and sending verification email
